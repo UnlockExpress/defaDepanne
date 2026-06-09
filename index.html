@@ -1,0 +1,492 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Defa Dépanne</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <script src="./script.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="logo" href="#home"><span>Defa</span> Dépanne</a>
+      <button class="menu-btn" id="menuBtn">Menu</button>
+      <nav class="menu" id="menu">
+        <a href="#services">Services</a>
+        <a href="#steps">Étapes</a>
+        <a href="#testimonials">Avis</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a href="tel:0759656065" class="call-btn">
+        <span class="icon">📞</span>
+        07 59 65 60 65
+      </a>
+
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="badge">Dépannage • Remorquage • Épave</span>
+          <h1>Dépannage rapide, remorquage sérieux, assistance 24h/24.</h1>
+          <p>Defa Dépanne intervient avec réactivité pour vous aider en cas de panne, accident, crevaison, batterie à
+            plat ou véhicule immobilisé. Un service simple, direct et rassurant, pensé pour donner confiance dès la
+            première visite.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="tel:0759656065">Appeler maintenant</a>
+            <a class="btn secondary" href="#contact">Demande rapide</a>
+          </div>
+          <div class="stats">
+            <div><strong>24/7</strong><span>Disponibilité</span></div>
+            <div><strong>+15 km</strong><span>Intervention rapide</span></div>
+            <div><strong>Devis</strong><span>Clairement expliqué</span></div>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=1400&q=80"
+            alt="Dépanneuse de nuit" />
+          <div class="floating-box"><strong>Intervention express</strong><span>Jour et nuit</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container brands">
+        <div>Rapide</div>
+        <div>Sérieux</div>
+        <div>Disponible</div>
+        <div>Local</div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-title"><span>Nos services</span>
+          <h2>Une offre complète et lisible</h2>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <div class="card-img">
+              <img src="img/depannage-sur-place.png"
+                alt="Dépannage">
+              <div class="card-icon"><i class="fas fa-wrench"></i></div>
+            </div>
+            <h3>Dépannage sur place</h3>
+            <p>Batterie, panne légère, véhicule bloqué, roue crevée ou petite intervention d’urgence.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-img">
+              <img src="img/remorquage.png"
+                alt="Remorquage">
+              <div class="card-icon"><i class="fas fa-truck"></i></div>
+            </div>
+            <h3>Remorquage toutes distances</h3>
+            <p>Transport sécurisé vers votre garage, votre domicile ou l’adresse de votre choix.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-img">
+              <img src="img/enlevement-epave.png"
+                alt="Épave">
+              <div class="card-icon"><i class="fas fa-car-crash"></i></div>
+            </div>
+            <h3>Enlèvement d’épave</h3>
+            <p>Prise en charge de véhicules hors d’usage avec une organisation simple et rapide.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-img">
+              <img src="img/assistance-apres-accident.png"
+                alt="Assistance accident">
+              <div class="card-icon"><i class="fas fa-ambulance"></i></div>
+            </div>
+            <h3>Assistance accident</h3>
+            <p>Support après incident, sécurisation du véhicule et remorquage adapté à la situation.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-img">
+              <img src="img/ouverture-porte.png"
+                alt="Ouverture de porte">
+              <div class="card-icon"><i class="fa-solid fa-door-open"></i></div>
+            </div>
+            <h3>Ouverture de routes</h3>
+            <p>Intervention pour aider les conducteurs à reprendre la route dans les meilleurs délais.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-img">
+              <img src="img/intervention-ile-de-france.png"
+                alt="Île-de-France">
+              <div class="card-icon"><i class="fas fa-location-dot"></i></div>
+            </div>
+            <h3>Intervention Île-de-France</h3>
+            <p>Une présence pensée pour les besoins des automobilistes d'Île-de-France et des
+              alentours.</p>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section alt" id="about">
+      <div class="container about-grid">
+
+        <div class="about-copy">
+          <div class="section-title left"><span>Pourquoi nous choisir</span>
+            <h2>Un site qui inspire confiance, un service orienté efficacité</h2>
+          </div>
+          <p>Le design sombre donne une image plus forte et plus moderne. Les contrastes permettent de mettre en valeur
+            le numéro, les services et les appels à l’action sans surcharger la page.</p>
+          <p>Le contenu est structuré comme un vrai site professionnel : promesse claire, preuves de sérieux, services
+            détaillés, avis clients et formulaire visible. C’est idéal pour convertir les visiteurs en appels.</p>
+          <div class="feature-list">
+            <div>
+              <div class="feature-icon"><i class="fas fa-bolt"></i></div>
+              <strong>Réactivité</strong>
+              <span>Réponse rapide aux demandes urgentes.</span>
+            </div>
+            <div>
+              <div class="feature-icon"><i class="fas fa-file-alt"></i></div>
+              <strong>Clarté</strong>
+              <span>Informations simples, lisibles et rassurantes.</span>
+            </div>
+            <div>
+              <div class="feature-icon"><i class="fas fa-mobile-alt"></i></div>
+              <strong>Qualité</strong>
+              <span>Une présentation premium, même sur mobile.</span>
+            </div>
+          </div>
+        </div>
+
+        <img class="about-img"
+          src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1400&q=80"
+          alt="Camion de remorquage" />
+      </div>
+    </section>
+
+    <section class="section" id="steps">
+      <div class="container">
+        <div class="section-title">
+          <span>Étapes</span>
+          <h2>Comment se déroule l’intervention</h2>
+        </div>
+        <div class="timeline">
+          <div class="step">
+            <div class="step-number">01</div>
+            <i class="fas fa-phone-alt step-icon"></i>
+            <h3>Appel ou message</h3>
+            <p>Le client explique le problème et donne sa localisation.</p>
+          </div>
+          <div class="step">
+            <div class="step-number">02</div>
+            <i class="fas fa-search step-icon"></i>
+            <h3>Évaluation</h3>
+            <p>On identifie le type d’assistance nécessaire pour préparer l’intervention.</p>
+          </div>
+          <div class="step">
+            <div class="step-number">03</div>
+            <i class="fas fa-truck-fast step-icon"></i>
+            <h3>Déplacement</h3>
+            <p>Une dépanneuse se rend sur place dans les meilleurs délais.</p>
+          </div>
+          <div class="step">
+            <div class="step-number">04</div>
+            <i class="fas fa-circle-check step-icon"></i>
+            <h3>Solution</h3>
+            <p>Remorquage, dépannage ou enlèvement selon la situation.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="testimonials">
+      <div class="container">
+        <div class="section-title">
+          <span>Avis clients</span>
+          <h2>Une image rassurante et professionnelle</h2>
+        </div>
+        <div class="testimonial-grid">
+          <article class="testimonial-card">
+            <div class="testimonial-avatar">
+              <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Karim">
+            </div>
+            <div class="testimonial-content">
+              <p class="testimonial-text">“Intervention rapide et très bon contact. Le véhicule a été pris en charge
+                sans stress.”</p>
+              <div class="testimonial-author">
+                <strong>Karim</strong>
+                <span>Client dépannage</span>
+              </div>
+            </div>
+          </article>
+          <article class="testimonial-card">
+            <div class="testimonial-avatar">
+              <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Sarah">
+            </div>
+            <div class="testimonial-content">
+              <p class="testimonial-text">“Site propre, clair et rassurant. On comprend tout de suite le service
+                proposé.”</p>
+              <div class="testimonial-author">
+                <strong>Sarah</strong>
+                <span>Automobiliste</span>
+              </div>
+            </div>
+          </article>
+          <article class="testimonial-card">
+            <div class="testimonial-avatar">
+              <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Mehdi">
+            </div>
+            <div class="testimonial-content">
+              <p class="testimonial-text">“Très bon rendu visuel. Le thème sombre donne un vrai côté premium.”</p>
+              <div class="testimonial-author">
+                <strong>Mehdi</strong>
+                <span>Client régulier</span>
+              </div>
+            </div>
+          </article>
+          <article class="testimonial-card">
+            <div class="testimonial-avatar">
+              <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sophie">
+            </div>
+            <div class="testimonial-content">
+              <p class="testimonial-text">“Service vraiment réactif, j’ai été dépannée en moins de 30 minutes. Un grand
+                merci !”</p>
+              <div class="testimonial-author">
+                <strong>Sophie L.</strong>
+                <span>Dépannage batterie</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="testimonial-avatar">
+              <img src="https://randomuser.me/api/portraits/men/91.jpg" alt="Thomas">
+            </div>
+            <div class="testimonial-content">
+              <p class="testimonial-text">“Très professionnel, le remorquage s’est fait sans aucun souci et le dépanneur
+                était aimable.”</p>
+              <div class="testimonial-author">
+                <strong>Thomas M.</strong>
+                <span>Remorquage</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="testimonial-avatar">
+              <img src="https://randomuser.me/api/portraits/women/29.jpg" alt="Amélie">
+            </div>
+            <div class="testimonial-content">
+              <p class="testimonial-text">“J’ai appelé le soir, ils sont venus rapidement. Devis clair, intervention
+                efficace.”</p>
+              <div class="testimonial-author">
+                <strong>Amélie D.</strong>
+                <span>Assistance 24/7</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section-title">
+          <span>FAQ</span>
+          <h2>Questions fréquentes</h2>
+        </div>
+        <div class="faq">
+          <details open>
+            <summary>Intervenez-vous de nuit ?</summary>
+            <p>Oui, la page met en avant une disponibilité 24h/24 et 7j/7.</p>
+          </details>
+          <details>
+            <summary>Faites-vous le remorquage toutes distances ?</summary>
+            <p>Oui, tu peux présenter un remorquage local ou longue distance selon ton activité.</p>
+          </details>
+          <details>
+            <summary>Peut-on demander un devis rapide ?</summary>
+            <p>Oui, le formulaire et le bouton d’appel servent à déclencher une demande immédiate.</p>
+          </details>
+          <details>
+            <summary>Peut-on intervenir en Île-de-France ?</summary>
+            <p>Oui, le site met en avant Île-de-France et les alentours en région parisienne.</p>
+          </details>
+          <details>
+            <summary>Quels sont vos tarifs pour un dépannage ?</summary>
+            <p>Nos tarifs sont clairs et sans surprise. Le coût dépend de la distance et du type d’intervention
+              (dépannage simple, remorquage, enlèvement). Un devis gratuit vous est communiqué par téléphone avant tout
+              déplacement.</p>
+          </details>
+          <details>
+            <summary>Intervenez-vous sur tous types de véhicules ?</summary>
+            <p>Oui, nous prenons en charge voitures particulières, deux-roues, utilitaires légers et camping-cars. Pour
+              les poids lourds, contactez-nous, nous vous orienterons vers un partenaire adapté.</p>
+          </details>
+          <details>
+            <summary>Que faire en cas d’accident sur l’autoroute ?</summary>
+            <p>Restez en sécurité derrière les glissières, allumez vos feux de détresse, placez le triangle de
+              signalisation, puis appelez-nous. Nous contacterons les forces de l’ordre si nécessaire et organiserons le
+              remorquage de votre véhicule.</p>
+          </details>
+          <details>
+            <summary>Mon assureur prend-il en charge vos services ?</summary>
+            <p>Oui, la plupart des contrats d’assurance auto incluent une assistance dépannage et remorquage. Nous vous
+              fournissons une facture détaillée que vous pouvez transmettre à votre assureur pour remboursement.</p>
+          </details>
+          <details>
+            <summary>Acceptez-vous les paiements par carte bancaire ?</summary>
+            <p>Oui, nous acceptons les espèces, la carte bancaire et les virements. Un règlement est demandé à la fin de
+              l’intervention, sauf si une prise en charge directe par votre assurance est possible.</p>
+          </details>
+          <details>
+            <summary>Combien de temps faut-il attendre une dépanneuse ?</summary>
+            <p>Notre objectif est d’intervenir sous 30 à 60 minutes en Île-de-France, selon la circulation et votre
+              localisation. En heure creuse, nous pouvons être sur place en 20 minutes.</p>
+          </details>
+          <details>
+            <summary>Pouvez-vous me déposer à mon domicile ou à un garage ?</summary>
+            <p>Bien sûr. Après remorquage, nous vous déposons à l’adresse de votre choix (domicile, garage, loueur de
+              véhicule) dans la limite de la zone d’intervention.</p>
+          </details>
+          <details>
+            <summary>Que se passe-t-il si vous ne pouvez pas réparer sur place ?</summary>
+            <p>Si la panne nécessite une réparation en atelier, nous proposons le remorquage vers le garage de votre
+              choix. Nous pouvons aussi vous recommander un garagiste de confiance partenaire.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <span class="badge">Contact rapide</span>
+          <h2>Besoin d’une dépanneuse maintenant ?</h2>
+          <p>Remplissez le formulaire ou appelez directement pour une intervention rapide. Notre équipe est à votre
+            écoute 24h/24.</p>
+
+          <div class="contact-boxes">
+            <div class="contact-box">
+              <i class="fas fa-phone-alt contact-icon"></i>
+              <div>
+                <strong>Téléphone</strong>
+                <span>07 59 65 60 65</span>
+              </div>
+            </div>
+            <div class="contact-box">
+              <i class="fas fa-map-marker-alt contact-icon"></i>
+              <div>
+                <strong>Zone</strong>
+                <span>Île-de-France et alentours</span>
+              </div>
+            </div>
+            <div class="contact-box">
+              <i class="fas fa-clock contact-icon"></i>
+              <div>
+                <strong>Horaires</strong>
+                <span>24h/24 - 7j/7</span>
+              </div>
+            </div>
+          </div>
+
+          <a href="tel:0759656065" class="btn primary contact-call-btn">
+            <i class="fas fa-phone-alt"></i> Appelez maintenant
+          </a>
+        </div>
+
+        <form class="form" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="76862a46-2818-4403-831b-3ecb26775a8b">
+          <div class="form-group">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Nom complet" />
+          </div>
+          <div class="form-group">
+            <i class="fas fa-mobile-alt"></i>
+            <input type="tel" placeholder="Téléphone" />
+          </div>
+          <div class="form-group">
+            <i class="fas fa-location-dot"></i>
+            <input type="text" placeholder="Ville / adresse" />
+          </div>
+          <div class="form-group">
+            <i class="fas fa-tools"></i>
+            <select id="serviceSelect">
+              <option value="" disabled selected>Type de service</option>
+              <option value="Dépannage">Dépannage</option>
+              <option value="Remorquage">Remorquage</option>
+              <option value="Enlèvement d’épave">Enlèvement d’épave</option>
+              <option value="Batterie">Batterie</option>
+              <option value="Crevaison">Crevaison</option>
+              <option value="Perte / Double clé">Perte / Double clé</option>
+              <option value="Ouverture de porte">Ouverture de porte</option>
+              <option value="Autre">Autre</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <i class="fas fa-comment"></i>
+            <textarea rows="5" placeholder="Expliquez votre problème"></textarea>
+          </div>
+          <button type="button" class="btn primary form-submit">
+            <i class="fas fa-paper-plane"></i> Envoyer la demande
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Colonne 1 : Brand + description -->
+        <div class="footer-brand">
+          <strong class="footer-logo"><span>Defa</span> Dépanne</strong>
+          <p>Dépannage, remorquage et enlèvement d’épave avec un style sombre, moderne et premium.</p>
+        </div>
+
+        <!-- Colonne 2 : Contact -->
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <ul>
+            <li><i class="fas fa-phone-alt"></i> <a href="tel:0759656065">07 59 65 60 65</a></li>
+            <li><i class="fas fa-clock"></i> Disponible 24h/24 — 7j/7</li>
+          </ul>
+        </div>
+
+        <!-- Colonne 3 : Liens légaux -->
+        <div class="footer-legal">
+          <h4>Légal</h4>
+          <ul>
+            <li><a href="#">Mentions légales</a></li>
+            <li><a href="#">Conditions Générales d'Utilisation</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Defa Dépanne — Tous droits réservés</p>
+        <p class="footer-credit">Site fait par : <strong>Defa</strong>Dépanne</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
